@@ -10,4 +10,4 @@ visab_path = '../../VISAB'
 generate_visab_yml(visab_path, visab_docfx_path)
 
 # Build docfx
-sp.call('docfx build',cwd=docfx_path, shell=True)
+sp.call('docfx',cwd=docfx_path, shell=True)
