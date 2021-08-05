@@ -36,7 +36,8 @@
             },
             {
                 "files": [
-                    "getting_started/**"
+                    "getting_started/**",
+                    "misc/**"
                 ]
             }
         ],

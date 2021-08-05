@@ -10,3 +10,5 @@
 - name: VISAB Documentation
   href: api_visab/
   homepage: api_visab/index.md
+- name: VISAB 1.0 Documentation
+  href: misc/visab_documentation.pdf
