@@ -1,7 +1,10 @@
 - name: Articles
   href: articles/
   homepage: articles/intro.md
-- name: VISABConnector Api Documentation
+- name: Getting started
+  href: getting_started/
+  homepage: getting_started/intro.md
+- name: VISABConnector API Documentation
   href: api_visabconnector/
   homepage: api_visabconnector/index.md
 - name: VISAB Documentation

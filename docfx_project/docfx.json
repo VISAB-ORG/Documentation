@@ -33,6 +33,11 @@
                     "toc.yml",
                     "*.md"
                 ]
+            },
+            {
+                "files": [
+                    "getting_started/**"
+                ]
             }
         ],
         "resource": [

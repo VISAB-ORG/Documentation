@@ -17,7 +17,7 @@ with `TetrisBoard` looking like this
 ```csharp
 public class TetrisBoard
 {
-    public UnityEngineColor[,] Board { get; } = new Color[20, 10];
+    public Color[,] Board { get; } = new Color[20, 10];
 
     public int CalculateScore()
     {
