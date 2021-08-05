@@ -3,9 +3,15 @@
         {
             "src": [
                 {
-                    "files": "src/**.csproj",
-                    "src": "../../VISABConnector"
+                    "files": [
+                        "VISABConnector/*.csproj",
+                        "VISABConnector.Unity/*.csproj"
+                    ],
+                    "src": "../../VISABConnector/src"
                 }
+            ],
+            "exclude": [
+                "../../VISABConnector/src/VISABConnector.Example/**"
             ],
             "dest": "api_visabconnector",
             "disableGitFeatures": false,
