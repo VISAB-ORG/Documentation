@@ -36,15 +36,15 @@
             },
             {
                 "files": [
-                    "getting_started/**",
-                    "misc/**"
+                    "getting_started/**"
                 ]
             }
         ],
         "resource": [
             {
                 "files": [
-                    "images/**"
+                    "images/**",
+                    "misc/**"
                 ]
             }
         ],
