@@ -1,3 +1,3 @@
-# VISABConnector API Documentation
+# VISABConnector API
 
-TODO: Code samples
+TODO: Say what this is.

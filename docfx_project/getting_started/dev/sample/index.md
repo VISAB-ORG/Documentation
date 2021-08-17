@@ -1,4 +1,4 @@
-# Introduction
+# Lets make Tetris fun
 Imagine that we have a multiplayer Tetris game, in which two players compete for achieving the highest scores.\
 The game is turn-based, where each player has one turn at a time at which to set a stone.\
 Additionally to the regular Tetris ruleset, players also have a time limit for their turn which, when exceeded, stops them from getting more points.\
@@ -10,6 +10,3 @@ Since we are an avid artificial intelligence and especially case-based-reasoning
 
 Eventhought our system works well when a small amount of Tetris blocks is placed, it seems to struggle once the screen fills up.\
 To figure out what could possibily be missing in our CBR-system implementation, we decide that we want to visualize the data using VISAB.
-
-# TODO: Add Vorgehensweise VISAB (seperate file that is linked here)
-

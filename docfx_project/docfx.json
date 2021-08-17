@@ -25,21 +25,12 @@
         "content": [
             {
                 "files": [
-                    "api_visabconnector/**.*",
-                    "api_visab/**.*"
-                ]
-            },
-            {
-                "files": [
-                    "articles/**.md",
-                    "articles/**/toc.yml",
                     "toc.yml",
-                    "*.md"
-                ]
-            },
-            {
-                "files": [
-                    "getting_started/**"
+                    "*.md",
+                    "api_visabconnector/**.*",
+                    "api_visab/**.*",
+                    "documentation/**.*",
+                    "getting_started/**.*"
                 ]
             }
         ],
@@ -53,9 +44,6 @@
         ],
         "overwrite": [
             {
-                "files": [
-                    "apidoc/**.md"
-                ],
                 "exclude": [
                     "obj/**",
                     "_site/**"

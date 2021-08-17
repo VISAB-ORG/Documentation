@@ -1,6 +1,22 @@
-- name: Lets make Tetris fun
-  href: intro.md
-- name: Visualize using VISAB
-  href: visab.md
-- name: Communicate using VISABConnector
-  href: connector.md
+- name: User
+  href: user/index.md
+  items:
+    - name: Environment setup
+      href: user/setup.md
+    - name: GUI usage
+      href: user/usage/index.md
+
+- name: Developer
+  href: dev/index.md
+  items:
+  - name: Environment setup
+    href: dev/setup.md
+  - name: Code samples
+    href: dev/sample/index.md
+    items:
+      - name: Lets make Tetris fun
+        href: dev/sample/index.md
+      - name: Visualize using VISAB
+        href: dev/sample/visab.md
+      - name: Communicate using VISABConnector
+        href: dev/sample/connector.md

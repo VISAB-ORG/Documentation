@@ -1,0 +1,8 @@
+- name: Architecture
+  href: architecture/index.md
+- name: HTTP API endpoints
+  href: api_http/index.md
+- name: Visualizer views
+  href: visualizer/index.md
+- name: Extending VISAB for a new game
+  href: extending/index.md
