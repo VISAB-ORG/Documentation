@@ -30,7 +30,8 @@
                     "api_visabconnector/**.*",
                     "api_visab/**.*",
                     "documentation/**.*",
-                    "getting_started/**.*"
+                    "getting_started/**.*",
+                    "code_samples/**.*"
                 ]
             }
         ],

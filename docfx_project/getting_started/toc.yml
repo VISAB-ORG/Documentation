@@ -1,22 +1,10 @@
-- name: User
-  href: user/index.md
-  items:
-    - name: Environment setup
-      href: user/setup.md
-    - name: GUI usage
-      href: user/usage/index.md
-
-- name: Developer
-  href: dev/index.md
-  items:
-  - name: Environment setup
-    href: dev/setup.md
-  - name: Code samples
-    href: dev/sample/index.md
-    items:
-      - name: Lets make Tetris fun
-        href: dev/sample/index.md
-      - name: Visualize using VISAB
-        href: dev/sample/visab.md
-      - name: Communicate using VISABConnector
-        href: dev/sample/connector.md
+- name: Introduction
+  href: index.md
+- name: Environment Setup
+  href: setup.md
+- name: GUI Usage
+  href: usage.md
+- name: Extending VISAB for a new game 
+  href: extending.md
+- name: Connecting to VISAB from a different machine
+  href: hamachi.md

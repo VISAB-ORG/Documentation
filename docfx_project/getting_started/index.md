@@ -1,3 +1,3 @@
-# Getting started
+# Introduction
 
-The getting started is divided into `User` and `Developer`.
+The getting started contains articles for getting started with using and developing the VISAB toolset.

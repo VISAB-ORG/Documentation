@@ -1,9 +1,12 @@
 - name: Documentation
   href: documentation/
   homepage: documentation/index.md
-- name: Getting started
+- name: Getting Started
   href: getting_started/
   homepage: getting_started/index.md
+- name: Code Samples
+  href: code_samples/
+  homepage: code_samples/index.md
 - name: VISABConnector API
   href: api_visabconnector/
   homepage: api_visabconnector/index.md
