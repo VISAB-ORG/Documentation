@@ -1,6 +1,6 @@
 - name: Introduction
   href: index.md
-- name: Environment Setup
+- name: Setup
   href: setup.md
 - name: GUI Usage
   href: usage.md
