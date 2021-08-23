@@ -20,6 +20,7 @@ A JDK version equal or greater than Java 11 and [Maven](https://maven.apache.org
 1. Clone the repository using HTTPS `git clone https://github.com/VISAB-ORG/VISAB.git`.
 2. Run `mvn compile`
 3. Configure `org.visab.main.Main` to be the target of your run configuration.
+
 You can now run VISAB from your IDE.
 
 ## Developing VISABConnector and VISABConnector.Unity
@@ -29,6 +30,7 @@ You can now run VISAB from your IDE.
 1. Clone the repository using HTTPS `git clone https://github.com/VISAB-ORG/VISABConnector.git`.
 2. Open the solution file at src/VISABConnector.sln
 3. Build the solution using your IDE
+
 The compiled assemblies appear in the bin/ directory of the project directories.
 
 ## Developing the Unity games
