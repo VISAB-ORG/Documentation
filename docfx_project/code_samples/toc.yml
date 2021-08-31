@@ -9,13 +9,17 @@
 - name: VISABConnector
   href: visabconnector/session.md
   items:
-    - name: Session
+    - name: Initiating a transmission session
       href: visabconnector/session.md
+    - name: Sendings statistics and images
+      href: visabconnector/statistics.md
+    - name: Closing a transmission session
+      href: visabconnector/close.md
 
 - name: VISABConnector.Unity
   href: visabconnector_unity/images.md
   items:
-    - name: Images
+    - name: Extracting game images
       href: visabconnector_unity/images.md
 
 - name: Old
