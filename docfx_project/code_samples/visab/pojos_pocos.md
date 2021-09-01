@@ -10,7 +10,7 @@ Otherwise deserialization on the VISAB file will fail because of unknown attribu
 
 It is also possible to nest further classes in the POCOS / POJOS, they only need their respective implementation.
 
-### Code Samples for fictive implementation of Tetris game (Unity Game)
+### Code Samples for Fictive Implementation of Tetris (Unity Game - POCOs)
 
 ##### TetrisMetaInformation POCO
 ```csharp
@@ -70,4 +70,4 @@ namespace VISABConnector.Example.Tetris
 }
 ```
 
-### Code Samples for fictive implementation of Tetris game (VISAB)
+### Code Samples for Fictive Implementation of Tetris game (VISAB - POJOs)
