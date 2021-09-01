@@ -26,7 +26,7 @@ For example it may contain general information about items in the game, the winn
 
 <em>This view is very basic and features no interactiveness and should be rather simple to implement.</em>
 
-![MetaView Example](SettlersMeta.png)
+![MetaView Example](SettlersMeta.PNG)
 
 ## Statistics View ##
 
@@ -37,7 +37,7 @@ For example, it is highlighting the plan usage for each player very in separate 
 Here you need to be careful about how to fill the respective graphs with data, because JavaFX sometimes shows strange behaviour<br>
 if the refilling of graph data is not done smoothly.</em>
 
-![StatisticsView Example](SettlersStatistics.png)
+![StatisticsView Example](SettlersStatistics.PNG)
 
 ## Replay View ##
 
@@ -54,4 +54,4 @@ of what circumstances in the game may have lead to specific decisions of the AI 
 	- For example moving the turn slider back from 60 to 40 should correctly hide objects that were not there in turn 40 of course
 </em>
 
-![ReplayView Example](SettlersReplay.png)
+![ReplayView Example](SettlersReplay.PNG)

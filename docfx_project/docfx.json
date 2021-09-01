@@ -25,13 +25,8 @@
         "content": [
             {
                 "files": [
-                    "toc.yml",
-                    "*.md",
-                    "api_visabconnector/**.*",
-                    "api_visab/**.*",
-                    "documentation/**.*",
-                    "getting_started/**.*",
-                    "code_samples/**.*"
+                    "**.md",
+                    "**.yml"
                 ]
             }
         ],
@@ -39,7 +34,9 @@
             {
                 "files": [
                     "images/**",
-                    "misc/**"
+                    "misc/**",
+                    "**.png",
+                    "**.jpg"
                 ]
             }
         ],
