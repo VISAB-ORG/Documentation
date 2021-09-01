@@ -61,12 +61,12 @@ public class TetrisListener
         if (file.getStatistics().size() > 0) {
             var lastStatistics = file.getStatistics().get(file.getStatistics().size() - 1);
 
-            int mostKills = 0;
+            int mostPoints = 0;
             var playerName = "";
             for (var player : lastStatistics.getPlayers()) {
-                if (player.getStatistics().getFrags() > mostKills) {
+                if (player.getStatistics().getPoints > mostPoints) {
                     playerName = player.getName();
-                    mostKills = player.getStatistics().getFrags();
+                    mostPoints = player.getStatistics().getPoints();
                 }
             }
             file.setWinner(playerName);
