@@ -19,6 +19,8 @@ have at least two classes that realize the respective view, e.g.:
 - AnyGameReplay**View**: Is only responsible for how the UI elements are displayed in the UI
 - AnyGameReplay**ViewModel**: Is responsible for data access across the underlying model and provides it for the view class
 
+Furthermore, the related .fxml 
+
 ## Meta (File) View ##
 
 The meta view is used to provide static information of the VISAB file which are valid by the end of it.<br>
