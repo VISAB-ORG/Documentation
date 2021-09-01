@@ -1,24 +1,19 @@
-# Extending VISAB for a new game
-<p>The underlying code base of VISAB is designed to be easily extensible.<br>
-This article will guide you through all relevant changes you need to perform, <br>
-if you desire to make VISAB capable of supporting a new game.<br>
-As the below order already indicates, we advise you to start with the modifications<br>
-in your game, because then you will have a fixed basis, of what shall be processed within VISAB.</p>
+# Extending VISAB for a New Game
 
-### Short overview of actions to be performed
-<ol>
-	<li>Deploy the <code>VISABConnector</code> in your (Unity-) game</li>
-	<li>Create a statistics POJO in the game.</li>
-	<li>Implement a <code>VISABHelper</code> in your (Unity-) game</li>
-	<li>[OPTIONAL] Use the <code>VISABConnector.Unity</code> to perform snapshots</li>
-	<li>Create a new <code>SessionListener</code> in VISAB</li>
-	<li>Create a statistics POJO in VISAB.</li>
-	<li>Create a <code>VISABFile</code> in VISAB</li>
-	<li>Implement desired visualizers for your (Unity-) game</li>
-	<ul>
-		<li>Create a Meta-View</li>
-		<li>Create a Statistics-View</li>
-		<li>Create a Replay View</li>
-		<li>Create any other View you find helpful</li>
-	</ul>
-</ol>
+The underlying code base of VISAB is designed to be easily extensible. This article will guide you through <br>
+all relevant changes you need to perform, if you desire to make VISAB capable of supporting a new game.<br>
+As the below order already indicates, we advise you to start with the modifications in your game, because <br>
+then you will have a fixed basis, of what shall be processed within VISAB.
+
+### Step by Step Guidance
+
+1. [Setup your environment](https://visab-org.github.io/getting_started/setup.html)
+2. [Deploy the <code>VISABConnector</code> in your (Unity-) game](https://github.com/VISAB-ORG/VISABConnector)
+3. [Create necessary POCOs in the game](https://visab-org.github.io/code_samples/visab/pojos_pocos.html)
+4. [Implement a <code>VISABHelper</code> in your (Unity-) game to extract data and send it with the <code>VISABConnector</code>](https://visab-org.github.io/code_samples/old/connector.html)
+5. [**[OPTIONAL]** Use the <code>VISABConnector.Unity</code> to perform snapshots](https://visab-org.github.io/code_samples/visabconnector_unity/images.html)
+6. [Create a new <code>SessionListener</code> in VISAB](https://visab-org.github.io/code_samples/visab/listener.html)
+7. [Create necessary POJOs in VISAB](https://visab-org.github.io/code_samples/visab/pojos_pocos.html)
+8. [Create a <code>VISABFile</code> in VISAB](https://visab-org.github.io/code_samples/visab/file.html)
+9. [Implement desired visualizers (at least one) for your (Unity-) game](https://visab-org.github.io/documentation/visualizer/index.html)
+10. [Add respective classes to the <code>classMapping.json</code>](https://visab-org.github.io/code_samples/visab/class_mapping.html)
