@@ -19,7 +19,8 @@ have at least two classes that realize the respective view, e.g.:
 - AnyGameReplay**View**: Is only responsible for how the UI elements are displayed in the UI
 - AnyGameReplay**ViewModel**: Is responsible for data access across the underlying model and provides it for the view class
 
-Furthermore, the related .fxml 
+Furthermore, the related .fxml has to have the exact same name as the as the view, e.g.: <code>AnyGameReplayView.fxml</code> and also must be <br>
+located under the exact same package pathing within src/main/resources to be automatically locatable by the <code>FluentViewLoader</code> of JavaFX/mvvmfx.
 
 ## Meta (File) View ##
 
