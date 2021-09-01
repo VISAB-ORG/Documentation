@@ -12,5 +12,5 @@ def generate_visab_yml(visab_path, visab_docfx_path):
         for file in Path(visab_docfx_path).glob('*.yml'):
             os.remove(file)
 
-        for file in Path(f'{visab_path}/doc/yml-files').glob('*.yml'):
+        for file in Path(f'{visab_path}/yml-files').glob('*.yml'):
             shutil.copy(file, visab_docfx_path)

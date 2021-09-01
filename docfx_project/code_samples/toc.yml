@@ -3,8 +3,14 @@
 - name: VISAB
   href: visab/listener.md
   items:
-    - name: Listener
+    - name: Creating POCOs and POJOs
+      href: visab/pojos_pocos.md
+    - name: Creating a Game File in VISAB
+      href: visab/file.md
+    - name: Creating a SessionListener in VISAB
       href: visab/listener.md
+    - name: Maintain Dynamic Class Mappings in VISAB
+      href: visab/class_mapping.md
 
 - name: VISABConnector
   href: visabconnector/session.md
@@ -21,13 +27,3 @@
   items:
     - name: Extracting game images
       href: visabconnector_unity/images.md
-
-- name: Old
-  href: old/index.md
-  items:
-    - name: Lets make Tetris fun
-      href: old/index.md
-    - name: Visualize using VISAB
-      href: old/visab.md
-    - name: Communicate using VISABConnector
-      href: old/connector.md

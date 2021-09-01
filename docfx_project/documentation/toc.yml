@@ -1,10 +1,10 @@
 - name: Introduction
   href: index.md
 - name: Architecture
-  href: architecture/index.md
+  href: architecture/architecture.md
 - name: HTTP API endpoints
-  href: api_http/index.md
+  href: api_http/api.md
 - name: Visualizer Views
-  href: visualizer/index.md
+  href: visualizer/visualizer.md
 - name: Conventions and Terminology
   href: conventions.md
