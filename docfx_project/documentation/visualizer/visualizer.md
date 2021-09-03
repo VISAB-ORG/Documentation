@@ -57,4 +57,4 @@ of what circumstances in the game may have lead to specific decisions of the AI 
 	- For example moving the turn slider back from 60 to 40 should correctly hide objects that were not there in turn 40 of course
 </em>
 
-![ReplayView Example](SettlersReplay.PNG)
+![ReplayView Example](SettlersReplay.png)
