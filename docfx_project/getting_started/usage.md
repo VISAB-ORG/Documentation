@@ -5,7 +5,7 @@ This guide will provide a walkthrough to VISABs UI and explain all relevant elem
 
 ## Home
 
-![Home](Home.PNG)
+![Home](Home.png)
 The HomeView has a navigation bar with  buttons to open the [API-Dashboard](#API-Dashboard) **(1)**, the Settings **(2)** with an <br>
 included option to switch between light and dark mode **(11)**, the About **(3)** and the Help **(4)** window. It also shows a view <br>
 of the file-system of the  local VISAB database. There are all files with filename, creation date and <br>
@@ -16,25 +16,25 @@ opens the systems file explorer, where the user can upload an existing VISAB fil
 This is also possible via drag and drop into the HomeView. With the "Delete" button **(9)** the selected file or <br>
 folder can be deleted. The "VISUALIZE" button **(10)** will open the VisualizerView if a VISAB file is selected.
 
-![HomeDark](HomeDark.PNG)
+![HomeDark](HomeDark.png)
 
 ## API Dashboard
 
-![APIDashboard](APIDashboard.PNG)
+![APIDashboard](APIDashboard.png)
 
 ## Settings
 
-![Settings](Settings.PNG)
+![Settings](Settings.png)
 
 ## Help
 
-![HelpVideo](HelpVideo.PNG)
-![HelpPDF](HelpPDF.PNG)
+![HelpVideo](HelpVideo.png)
+![HelpPDF](HelpPDF.png)
 
 ## About
 
-![About2.0](About2.PNG)
-![About1.0](About1.PNG)
+![About2.0](About2.png)
+![About1.0](About1.png)
 
 ## Visualizer
 
@@ -42,34 +42,34 @@ folder can be deleted. The "VISUALIZE" button **(10)** will open the VisualizerV
 
 ##### MetaView
 
-![SettlersMeta](SettlersMeta.PNG)
+![SettlersMeta](SettlersMeta.png)
 
 ##### StatisticsView
 
-![SettlersStatistics](SettlersStatistics.PNG)
+![SettlersStatistics](SettlersStatistics.png)
 
 ##### StatisticsDetailView
 
-![SettlersStatisticsDetail](SettlersStatisticsDetail.PNG)
+![SettlersStatisticsDetail](SettlersStatisticsDetail.png)
 
 ##### ReplayView
 
-![SettlersReplayAllVisible](SettlersReplayAllVisual.PNG)
+![SettlersReplayAllVisible](SettlersReplayAllVisual.png)
 
-![SettlersReplaySomeHidden](SettlersReplaySomeHidden.PNG)
+![SettlersReplaySomeHidden](SettlersReplaySomeHidden.png)
 
 ### CBRShooter
 
 ##### MetaView
 
-![ShooterMeta](ShooterMeta.PNG)
+![ShooterMeta](ShooterMeta.png)
 
 ##### StatisticsView
 
-![ShooterStatistics](ShooterStatistics.PNG)
+![ShooterStatistics](ShooterStatistics.png)
 
 ##### ReplayView
 
-![ShooterReplayAllVisible](ShooterReplayAllVisual.PNG)
+![ShooterReplayAllVisible](ShooterReplayAllVisual.png)
 
-![ShooterReplaySomeHidden](ShooterReplaySomeHidden.PNG)
+![ShooterReplaySomeHidden](ShooterReplaySomeHidden.png)
