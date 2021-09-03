@@ -1,7 +1,7 @@
 # Creating a SessionListener in VISAB
 
-Due to the fact, that VISABs communication interface is realized with an<br>
-event-based HTTP API, the transmission sessions opened by any game need their<br>
+Due to the fact, that VISABs communication interface is realized with an
+event-based HTTP API, the transmission sessions opened by any game need their
 very own <code>SessionListener</code> within VISAB that handles the information.
 
 *To understand the inheritance, please have a look into the [code documentation of VISAB](https://visab-org.github.io/api_visab/index.html).*

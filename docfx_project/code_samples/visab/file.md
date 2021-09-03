@@ -1,7 +1,7 @@
 # Creating a Game File in VISAB
 
-Information sent by the respective game will be deserialized from JSON and written into<br>
-a file, so that it can be visualized afterwards. To handle this content appropriately these<br>
+Information sent by the respective game will be deserialized from JSON and written into
+a file, so that it can be visualized afterwards. To handle this content appropriately these
 game-specific files need their very own implementation in VISAB.
 
 *To understand the inheritance, please have a look into the [code documentation of VISAB](https://visab-org.github.io/api_visab/index.html).*

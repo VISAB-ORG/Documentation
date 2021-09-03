@@ -1,11 +1,11 @@
 # Creating POCOs and POJOs
 
-All information sent from games to VISAB is using JSON as its data format.<br>
-To enable the respective game to have automated serialization from C# into JSON,<br>
+All information sent from games to VISAB is using JSON as its data format.
+To enable the respective game to have automated serialization from C# into JSON,
 we need POCOS that represent the information to be sent to VISAB.
 
-To correctly deserialize this information, VISAB needs **equivalent** POJOS within its own code.<br>
-By **equivalent** it is meant, that these classes need to resemble the exact same attributes and names for them.<br>
+To correctly deserialize this information, VISAB needs **equivalent** POJOS within its own code.
+By **equivalent** it is meant, that these classes need to resemble the exact same attributes and names for them.
 Otherwise deserialization on the VISAB file will fail because of unknown attributes.
 
 It is also possible to nest further classes in the POCOS / POJOS, they only need their respective implementation.

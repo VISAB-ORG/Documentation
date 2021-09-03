@@ -1,8 +1,8 @@
 # Extending VISAB for a New Game
 
-The underlying code base of VISAB is designed to be easily extensible. This article will guide you through <br>
-all relevant changes you need to perform, if you desire to make VISAB capable of supporting a new game.<br>
-As the below order already indicates, we advise you to start with the modifications in your game, because <br>
+The underlying code base of VISAB is designed to be easily extensible. This article will guide you through 
+all relevant changes you need to perform, if you desire to make VISAB capable of supporting a new game.
+As the below order already indicates, we advise you to start with the modifications in your game, because 
 then you will have a fixed basis, of what shall be processed within VISAB.
 
 ### Step by Step Guidance
