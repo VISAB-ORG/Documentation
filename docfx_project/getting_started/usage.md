@@ -6,7 +6,7 @@ This guide will provide a walkthrough to VISABs UI and explain all relevant elem
 ## Home
 #### light mode
 ![Home](Home.png)
-The "Home View" has a navigation bar with  buttons to open the [API-Dashboard](#API-Dashboard) **(1)**, the [Settings](#Settings) **(2)** with an
+The "Home View" has a navigation bar with  buttons to open the [API-Dashboard](#API Dashboard) **(1)**, the [Settings](#Settings) **(2)** with an
 included option to switch between light and dark mode **(11)**, the [About](#About) **(3)** and the [Help](#Help) **(4)** window. It also shows a view
 of the file-system of the  local VISAB database. There are all files with filename, creation date and
 size displayed, that belong to the VISAB supported games. The refresh button **(5)** can be used to reload the
@@ -46,7 +46,7 @@ the players and how / by whom they are controlled. The "CBR Shooter Meta View" f
 
 The "Statistics view" consists of a comparison statistics table with a "Show in chart" button **(1)**, a comparison graph **(2)** and a section with 
 pie charts **(3)** indicating the plan usage distribution for each participating player / bot. For Settlers of Catan, there is also a "Show Resource Details" button **(4)** available,
-that is capable of giving a more complex insight about only the resource-related rows of the comparison statistics table in a [Detail View](#Statistics-Detail-View).
+that is capable of giving a more complex insight about only the resource-related rows of the comparison statistics table in a [Detail View](#Statistics Detail View).
 
 In the comparison statistics table, the statistics for each measure are compared between players and can be viewed in a line 
 graph when a line is selected and the "Show in Chart" button **(1)** is pressed.
@@ -117,7 +117,7 @@ With the "Return" button the "Edit View" will be closed and the made changes nee
 ## Help
 
 The "Help View" shall help anyone using VISAB by providing important information in utilizable formats. By clicking on the specific tab **(1)**
-one can either have a look into the [Video tutorial](#Video-Tutorial) or into the [PDF documentation](#PDF-Documentation)
+one can either have a look into the [Video tutorial](#Video Tutorial) or into the [PDF documentation](#PDF Documentation)
 
 #### Video Tutorial
 
