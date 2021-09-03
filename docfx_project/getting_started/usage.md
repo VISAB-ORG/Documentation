@@ -46,7 +46,7 @@ the players and how / by whom they are controlled. The "CBR Shooter Meta View" f
 
 The "Statistics view" consists of a comparison statistics table with a "Show in chart" button **(1)**, a comparison graph **(2)** and a section with 
 pie charts **(3)** indicating the plan usage distribution for each participating player / bot. For Settlers, there is also a "Show Resource Details" button **(4)** available,
-that is capable of giving a more complex insight about only the resource-related rows of the comparison statistics table in a [Detail View](#Statistics-Detail-View-(Settlers-Of-Catan-exclusive)).
+that is capable of giving a more complex insight about only the resource-related rows of the comparison statistics table in a [Detail View](#Statistics-Detail-View).
 
 In the comparison statistics table, the statistics for each measure are compared between players and can be viewed in a line 
 graph when a line is selected and the "Show in Chart" button **(1)** is pressed.
