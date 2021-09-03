@@ -141,6 +141,7 @@ are displayed in a list **(3)** in the VISAB 2.0 tab.
 
 *The tab structure offers a comprehensive way of illustrating VISABs current and also future progress throughout the different versions.*
 
-![About2.0](About2.png)
 ![About1.0](About1.png)
+![About2.0](About2.png)
+
 
