@@ -14,11 +14,11 @@ to enhance the user-experience by having the exact same visuals and map just as 
 
 ### Online Documentation Content
 
-This online documentation aims at helping further developers to understand how VISAB and its toolset works and guide further extensions to it.
+This online documentation aims at helping developers and users to understand how VISAB and its toolset works and guide further extensions to it.
 Under [Documentation](https://visab-org.github.io/documentation/index.html) you will find more general information on how VISAB is built, how it is working and what 
 the underlying concepts are. [Getting Started](https://visab-org.github.io/getting_started/index.html) aims at helping both users and developers to get a starting point for the VISAB toolset
-and by exposing hands-on guides on various things. In [Code Samples](https://visab-org.github.io/code_samples/index.html) some abstracted sample implementations with the example of [Tetris](https://tetris.com/play-tetris)
-are shown to give a deeper insight on how to extend the code base to support further games. Furthermore the API code documentation of the [VISABConnector](https://visab-org.github.io/api_visabconnector/index.html) and [VISAB](https://visab-org.github.io/api_visab/index.html)
+by offering hands-on guides on various things. In [Code Samples](https://visab-org.github.io/code_samples/index.html) some abstracted sample implementations with the example of [Tetris](https://tetris.com/play-tetris)
+are shown to give a deeper insight on how to extend the code base to support other games. Furthermore the API code documentation of the [VISABConnector](https://visab-org.github.io/api_visabconnector/index.html) and [VISAB](https://visab-org.github.io/api_visab/index.html)
 can also be viewed.
 
 <hr>
