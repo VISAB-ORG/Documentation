@@ -15,5 +15,5 @@ then you will have a fixed basis, of what shall be processed within VISAB.
 6. [Create a new <code>SessionListener</code> in VISAB](https://visab-org.github.io/code_samples/visab/listener.html)
 7. [Create necessary POJOs in VISAB](https://visab-org.github.io/code_samples/visab/pojos_pocos.html)
 8. [Create a <code>VISABFile</code> in VISAB](https://visab-org.github.io/code_samples/visab/file.html)
-9. [Implement desired visualizers (at least one) for your (Unity-) game](https://visab-org.github.io/documentation/visualizer/index.html)
+9. [Implement desired visualizers (at least one) for your (Unity-) game](https://visab-org.github.io/documentation/visualizer/visualizer.html)
 10. [Add respective classes to the <code>classMapping.json</code>](https://visab-org.github.io/code_samples/visab/class_mapping.html)
