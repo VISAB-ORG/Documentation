@@ -3,8 +3,8 @@
 ### Welcome to the VISAB online documentation powered by [DocFX!](https://dotnet.github.io/docfx/)
 
 VISAB stands for **VIS**ualizing **A**gent **Behaviour** and can be bestly described as a tool that is 
-capable of communicating with games to extract game information und illustrate it for AI developers to have a perfectly tailored
-insight of the bot implementation's behaviour with perfectly tailored views for each specific game. To cover the full stack of required 
+capable of communicating with games to extract game information und illustrate it for AI developers to have a deeper
+insight into the bot implementation's behaviour with perfectly tailored views for each specific game. To cover the full stack of required 
 use cases VISAB comprises a toolset which contains the following:
 
 - VISAB: A standalone maven-powered Java application, usable on Windows, Mac and Linux that provides a variety of features for AI behaviour debugging.
