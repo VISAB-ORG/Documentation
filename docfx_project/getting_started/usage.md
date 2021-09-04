@@ -3,23 +3,23 @@
 Excited to use VISAB and get some insights about what it is capable of?<br>
 This guide will provide a walkthrough to VISABs UI and explain all relevant elements of it.
 
-## Home
+## Home <a name="home"></a>
 #### light mode
 ![Home](Home.png)
-The "Home View" has a navigation bar with  buttons to open the [API-Dashboard](#API-Dashboard) **(1)**, the [Settings](#Settings) **(2)** with an
-included option to switch between light and dark mode **(11)**, the [About](#About) **(3)** and the [Help](#Help) **(4)** window. It also shows a view
+The "Home View" has a navigation bar with  buttons to open the [API-Dashboard](#apidashboard) **(1)**, the [Settings](#settings) **(2)** with an
+included option to switch between light and dark mode **(11)**, the [About](#about) **(3)** and the [Help](#help) **(4)** window. It also shows a view
 of the file-system of the  local VISAB database. There are all files with filename, creation date and
 size displayed, that belong to the VISAB supported games. The refresh button **(5)** can be used to reload the
 database. With the "Show in explorer" button **(6)** the file system will be opened where the selected file or
 folder is stored on the system. With the "Rename" button **(7)** a file or folder can be renamed. The "Upload" button **(8)**
 opens the systems file explorer, where the user can upload an existing VISAB file to the workspace.
 This is also possible via drag and drop into the HomeView. With the "Delete" button **(9)** the selected file or
-folder can be deleted. The "VISUALIZE" button **(10)** will open the [Visualizer view](#Visualizer) if a VISAB file is selected.
+folder can be deleted. The "VISUALIZE" button **(10)** will open the [Visualizer view](#visualizer) if a VISAB file is selected.
 
 #### dark mode
 ![HomeDark](HomeDark.png)
 
-## Visualizer
+## Visualizer <a name="visualizer"></a>
 
 When a user selects a file from a game in VISAB and presses the "VISUALIZE" button **(10)**, the Visualizer view is loaded. 
 The view contains three tabs **(1)**: File Overview, Statistics and Replay. 
@@ -46,7 +46,7 @@ the players and how / by whom they are controlled. The "CBR Shooter Meta View" f
 
 The "Statistics view" consists of a comparison statistics table with a "Show in chart" button **(1)**, a comparison graph **(2)** and a section with 
 pie charts **(3)** indicating the plan usage distribution for each participating player / bot. For Settlers of Catan, there is also a "Show Resource Details" button **(4)** available,
-that is capable of giving a more complex insight about only the resource-related rows of the comparison statistics table in a [Detail View](#Statistics Detail View).
+that is capable of giving a more complex insight about only the resource-related rows of the comparison statistics table in a [Detail View](#statisticsdetail).
 
 In the comparison statistics table, the statistics for each measure are compared between players and can be viewed in a line 
 graph when a line is selected and the "Show in Chart" button **(1)** is pressed.
@@ -57,7 +57,7 @@ graph when a line is selected and the "Show in Chart" button **(1)** is pressed.
 #### CBRShooter
 ![ShooterStatistics](ShooterStatistics.png)
 
-##### Statistics Detail View
+##### Statistics Detail View <a name="statisticsdetail"></a>
 
 The "Detail View" illustrates the resources for each player in each round are displayed in a stacked bar chart with different colors for every resource. 
 The displayed rounds can be changed (*in intervals of 10 rounds*) by moving the slider **(1)** back and forth.
@@ -89,13 +89,13 @@ check boxes **(6)**. The "light-blue bubbles" indicate the changes applied to th
 ##### greyscaled / some items hidden
 ![ShooterReplaySomeHidden](ShooterReplaySomeHidden.png)
 
-## API Dashboard
+## API Dashboard <a name="apidashboard"></a>
 
 The "API Dashboard" exposes the most important informations of VISABs underlying HTTP API which is used as the communication interface with the respective games. 
 To configure the connection in the game correctly, VISABs adress can be directly copied from a text field **(1)**. Below you will find an overview of all transmission 
 sessions and their respective status and details. By clicking the "Clear Inactive Sessions!" button **(2)** all sessions that are either timeouted (grey) or canceled (red) will be removed from the overview.
-Any active (green) session can be canceled from VISAB side by clicking the "X" button **(3)**. VISAB also offers the option to show the [Visualizer view](#Visualizer) for a session in a live mode* **(4)** while it is still running.
-After a session has ended, the "Open Live View" button **(4)** changes into a "Visualize" button **(5)** which also opens the [Visualizer view](#Visualizer) just as you do from the [Home view](#Home) file explorer.
+Any active (green) session can be canceled from VISAB side by clicking the "X" button **(3)**. VISAB also offers the option to show the [Visualizer view](#visualizer) for a session in a live mode* **(4)** while it is still running.
+After a session has ended, the "Open Live View" button **(4)** changes into a "Visualize" button **(5)** which also opens the [Visualizer view](#visualizer) just as you do from the [Home view](#home) file explorer.
 For each session several informations are shown like the name of the game, the ip-address, the opening time of the session, the time of the last request, the time when the session was closed and the total amount of 
 request that were sent in the during the transimission session. 
 
@@ -103,7 +103,7 @@ request that were sent in the during the transimission session.
 
 ![APIDashboard](APIDashboard.png)
 
-## Settings
+## Settings <a name="settings"></a>
 
 The "Settings View" offsers several options to configure VISAB. The Web Api Port can be directly changed in the text field**(1)**. 
 The "Session Timout" **(2)** and the "Allowed Games" **(3)** offer Edit buttons to open the respective "Edit View". Furthermore there is an option to restore the default settings on button press **(4)**.
@@ -114,26 +114,26 @@ With the "Return" button the "Edit View" will be closed and the made changes nee
 
 ![Settings](Settings.png)
 
-## Help
+## Help <a name="help"></a>
 
 The "Help View" shall help anyone using VISAB by providing important information in utilizable formats. By clicking on the specific tab **(1)**
-one can either have a look into the [Video tutorial](#Video-Tutorial) or into the [PDF documentation](#PDF-Documentation)
+one can either have a look into the [Video tutorial](#videotutorial) or into the [PDF documentation](#pdfdoc)
 
-#### Video Tutorial
+#### Video Tutorial <a name="videotutorial"></a>
 
 The "Video Tutorial" tab contains a [video](https://www.youtube.com/watch?v=znG2ZtcAfqA) that is directly embedded from YouTube and can be either viewed in the application itself or 
 in the web browser if you click on "Ansehen auf YouTube / View on YouTube" **(2)**. The video explains how VISAB works and what it is used for.
 
 ![HelpVideo](HelpVideo.png)
 
-#### PDF Documentation
+#### PDF Documentation <a name="pdfdoc"></a>
 
 The "Documentation" tab contains a PDF viewer **(1)** with all basic features that you would expect. A user can simply scroll through the document and even search 
 for specific key words with ctrl+f.
 
 ![HelpPDF](HelpPDF.png)
 
-## About
+## About <a name="about"></a>
 
 The "About View" contains a tab **(1)** for every VISAB version. In the VISAB 1.0 tab all developers with names and mail addresses **(2)** are mentioned. 
 In the VISAB 2.0 tab the developers are also mentioned with their names and mail addresses **(2)**. Furthermore a rough overview of all new features, compared to VISAB 1.0, 
