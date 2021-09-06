@@ -1,6 +1,6 @@
 # Maintain Dynamic Class Mappings in VISAB
 
-To ensure that VISAB is easily extensible without touching the given code base,<br>
+To ensure that VISAB is easily extensible without touching the given code base,
 the workflow is implemented in a reflection-based style which uses a class mapping for each game.
 
 Below you can find a sample class mapping that already contains Tetris as well.
