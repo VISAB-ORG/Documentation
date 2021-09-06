@@ -3,6 +3,7 @@
 ![Deployment UML](deployment.png)
 
 For communication between game and VISAB, VISAB serves as the server and the games as the clients. Whilst it is possible, to run VISAB and the games on different machines, it is ofcourse not mandatory.
+VISAB expects the data contained in the HTTP requests body to be serialized as a JSON string. Instead of writing json string literals, you may use one of the many JSON serialization libraries availible for most languages.
 
 Games implemented in C# can use the [VISABConnector](https://github.com/VISAB-ORG/VISABConnector/) library that provides a C# interface to VISABs WebApi. Additionally, if the game is implemented on top of the UnityEngine, VISABConnector.Unity may be used to perform Unity specific image extraction.
 
