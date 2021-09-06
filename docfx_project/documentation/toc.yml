@@ -1,7 +1,15 @@
 - name: Introduction
   href: index.md
 - name: Architecture
-  href: architecture/architecture.md
+  href: architecture/modules.md
+  homepage: architecture/modules.md
+  items:
+  - name: Module Views
+    href: architecture/modules.md
+  - name: Component Connector View
+    href: architecture/eventbus.md
+  - name: Deployment View
+    href: architecture/deployment.md
 - name: HTTP API endpoints
   href: api_http/api.md
 - name: Visualizer Views
