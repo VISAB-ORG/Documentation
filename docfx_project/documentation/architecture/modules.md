@@ -7,5 +7,3 @@ The `workspace` package serves the purpose of persisting and accessing persistan
 Settings, VISAB files, and log files are persisted in a dedicated **workspace/** directory, that can be administrated using the GUI.
 
 The workspace is also used to access the game specific class mapping that is set in the `classMapping.json` file.
-
-#### Visualizer View Overview
