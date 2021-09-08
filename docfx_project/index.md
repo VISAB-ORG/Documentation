@@ -2,7 +2,7 @@
 
 ### Welcome to the VISAB online documentation powered by [DocFX!](https://dotnet.github.io/docfx/)
 
-VISAB stands for **VIS**ualizing **A**gent **Behaviour** and can be bestly described as a tool that is 
+VISAB stands for **VIS**ualizing **A**gent **B**ehaviour and can be bestly described as a tool that is 
 capable of communicating with games to extract game information und illustrate it for AI developers to have a deeper
 insight into the bot implementation's behaviour with perfectly tailored views for each specific game. To cover the full stack of required 
 use cases VISAB comprises a toolset which contains the following:
@@ -28,3 +28,4 @@ Please visit the [VISAB-ORG on GitHub](https://github.com/VISAB-ORG)!
 *Developed as an IT study project at the [University of Hildesheim, IIS](https://www.uni-hildesheim.de/fb4/institute/ifi/intelligente-informationssysteme-iis/)*
 
 ![IIS_Logo](https://www.uni-hildesheim.de/media/_migrated/pics/logo_IIS_fett.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Universit%C3%A4t_Hildesheim_logo.svg/1200px-Universit%C3%A4t_Hildesheim_logo.svg.png" width="100"/>
