@@ -12,6 +12,13 @@ use cases VISAB comprises a toolset which contains the following:
 - VISABConnector.Unity: A kind of sub module within the VISABConnector that can be used to perform snapshots of real game objects and send them to VISAB
 to enhance the user-experience by having the exact same visuals and map just as in the original game.
 
+### VISABs Overall Context
+
+In order to give a very quick and abstracted overview of how VISAB can be seen in context, the following graph shall illustrate the most relevant anchor points
+of VISABs current state and components involved in the overall workflow.
+
+![Context](VisabContext.png)
+
 ### Online Documentation Content
 
 This online documentation aims at helping developers and users to understand how VISAB and its toolset works and guide further extensions to it.
