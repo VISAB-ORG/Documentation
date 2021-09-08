@@ -4,6 +4,8 @@
   href: architecture/modules.md
   homepage: architecture/modules.md
   items:
+  - name: Architecture Overview
+    href: architecture/overview.md
   - name: Module Views
     href: architecture/modules.md
   - name: Component Connector View
