@@ -2,7 +2,7 @@
   href: index.md
 - name: Architecture
   href: architecture/modules.md
-  homepage: architecture/modules.md
+  homepage: architecture/overview.md
   items:
   - name: Architecture Overview
     href: architecture/overview.md

@@ -8,7 +8,7 @@ In any case you need to make sure that the IP adress and port* is configured cor
 ```csharp 
 string hostAdress = "http://25.59.97.106";
 int port = 2673;
-int requestTimeout = 10; // You'll have to play around with the delay.
+int requestTimeout = 10; // You'll have to play around with the timeout.
 
 var api = new VISABApi(hostAdress, port, requestTimeout);
 ```
