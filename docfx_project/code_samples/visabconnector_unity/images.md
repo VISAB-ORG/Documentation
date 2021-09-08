@@ -49,7 +49,7 @@ private TetrisImages TakeSnapshots()
 ``` 
 In this case we are going to snapshot three different brick shapes, which are stored in said dictionary together with their prefab paths (values). 
 
-Finally we need to conduct the actual snapshotting by invoking the `TakeSnapshot` method from the `ImageCreator` class. As displaced in the code sample below, this will be done by iterating through the bricks dictionary and passing the values as parameters to the configuration function. The returned image bytes will be added to the image container that has predefined placeholders for each image type that needs to be snapshotted for the specific game. In this case the brick shapes will be stored in the OneOneOneOne byte array.
+Finally we need to conduct the actual snapshotting by invoking the `TakeSnapshot` method from the `ImageCreator` class. As displaced in the code sample below, this will be done by iterating through the bricks dictionary and passing the values as parameters to the configuration function. The returned image bytes will be added to the image container that has predefined placeholders for each image type that needs to be snapshotted for the specific game. In this case the brick shapes will be stored in a map of byte arrays.
 ```csharp
 private TetrisImages TakeSnapshots() 
 {
@@ -58,9 +58,8 @@ private TetrisImages TakeSnapshots()
     foreach (var pair in bricks) 
     { 
         var config = defaultInstantiate(pair.Value); 
-        var bytes = ImageCreator.TakeSnapshot(config); 
-        images.OneOneOneOne = bytes;
+        var bytes = ImageCreator.TakeSnapshot(config);
+        images.StaticObjects[pair.Key] = bytes;
     }
 }
 ```
-# TODO: Either adapt `TetrisImages` class or adapt the example.
